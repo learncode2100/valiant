@@ -1,0 +1,88 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        color: black;
+        margin-bottom: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20pt;
+        font-weight: normal;
+    }
+    header {
+        background-color: yellow;
+        margin: 0;
+        padding: 10px;
+    }
+    #subtitle {
+        color: teal;
+        font-size: larger;
+        margin-top: 0;
+    }
+    .post {
+        /*border-left: 4px solid green;*/
+        padding-left: 15px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    nav li {
+        font-size: large;
+        color: brown;
+        font-weight: bold;
+        padding: 10px;
+        background-color: white;
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin: 10px;
+        flex-grow: 1;
+    }
+    nav ul {
+        display: flex;
+    }
+    p, h2 {
+        color: grey;
+    }
+    footer{
+        padding: 40px 20px;
+        background-color: black;
+        color: white;
+        margin-top: 70px;
+    }
+    article p {
+        color: red;
+        font-size: 15.5px;
+        text-align: justify;
+        margin-right: 20px;
+    }
+    article h2 {
+        color: green;
+    }
+    #logo{
+        float: right;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+    article img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border: 3px solid green;
+    }
+    article {
+        clear: left;
+    }
+    ul, ol {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    body header {
+        background-image: url(background.jpg);
+        opacity: 0.3;
+        margin-right: 180px;
+    }
+    #rupee {
+        border: 0px solid white;
+        padding-right: 0;
+        margin-right: 0;
+    }
